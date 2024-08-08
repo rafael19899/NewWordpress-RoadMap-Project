@@ -13,6 +13,7 @@ umask 177
 # Create backup directory if it doesn't exist
 mkdir -p ${BACKUP_DIR}
 
+
 # Backup command
 mysqldump --user=${DB_USER} --password=${DB_PASSWORD} --host=${DB_HOST} ${DB_NAME} > ${BACKUP_DIR}/${DB_NAME}_${DATE}.sql
 
