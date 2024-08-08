@@ -1,0 +1,22 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build theme assets
+        run: |
+          # Add commands to build SCSS & JS here
+
+      - name: Deploy to server
+        run: |
+          # Add commands to deploy using Rsync or Git here
