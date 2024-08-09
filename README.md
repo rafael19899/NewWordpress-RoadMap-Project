@@ -67,7 +67,7 @@ module.exports = {
     ]
   }
 };
-AI-generated code. Review and use carefully. More info on FAQ.
+
 Entry Points:
 Specify your JavaScript entry points (e.g., main.js, app.js).
 Webpack will bundle these files along with any imported SCSS files.
