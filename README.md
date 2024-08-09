@@ -31,15 +31,19 @@ JSON
 "scripts": {
   "build": "webpack --config webpack.config.js"
 }
-AI-generated code. Review and use carefully. More info on FAQ.This script runs Webpack using your configuration file.
+
 To build your assets, run:
+
 npm run build
+
 This will bundle your JavaScript files and create an output file (usually named bundle.js).
+
 Using Webpack in Your Project:
 Include the generated bundle.js in your HTML file:
 HTML
 
 <script src="dist/bundle.js"></script>
+
 Install Loaders:
 To handle SCSS files, install the necessary loaders:
 npm install --save-dev style-loader css-loader sass-loader
