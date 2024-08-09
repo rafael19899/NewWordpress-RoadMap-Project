@@ -78,7 +78,7 @@ JSON
 "scripts": {
   "build": "webpack --config webpack.config.js"
 }
-AI-generated code. Review and use carefully. More info on FAQ.
+
 
 To build your assets, run:
 npm run build
